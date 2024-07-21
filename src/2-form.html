@@ -4,25 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/home2.png" type="image/svg+xml" />
     <title>Task_2</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <section>
+      <div class="div-back">
+        <a class="link-back" href="./index.html">Go back</a>
+      </div>
 
       <form class="feedback-form" autocomplete="off">
-        <label>
+        <label class="form-label">
           Email
-          <input type="email" name="email" autofocus />
+          <input class="form-label-email" type="email" name="email" autofocus />
         </label>
-        <label>
+        <label class="form-label">
           Message
-          <textarea name="message" rows="8"></textarea>
+          <textarea class="form-label-msg" name="message" rows="8"></textarea>
         </label>
-        <button type="submit">Submit</button>
+        <button class="form-submit" type="submit">Submit</button>
       </form>
-            
     </section>
-    
     <!-- JS script -->
     <script type="module" src="./js/2-form.js" defer></script>
   </body>

@@ -1,9 +1,50 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #fafafa;
-  }
+  box-sizing: border-box;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 408px;
+  margin: 100px auto;
+  padding: 24px;
+
+  background-color: #fff;
+
+  border-radius: 8px;
+}
+
+.form-label-email {
+  display: flex;
+  width: 360px;
+  height: 40px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label-msg {
+  width: 360px;
+  height: 80px;
+}
+
+.form-submit {
+  width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.form-submit:hover {
+  background-color: #6c8cff;
+}

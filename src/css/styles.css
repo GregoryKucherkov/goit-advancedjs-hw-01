@@ -9,13 +9,15 @@
 @import url('./2-form.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
+
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  letter-spacing: 0.64px;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(249, 249, 249, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +27,8 @@
 }
 
 body {
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(194, 241, 245, 0.831);
+  min-height: 100vh;
 }
 
 .task-section {
@@ -33,11 +36,10 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding-top: 40px;
+  padding-top: 100px;
 
   font-size: large;
 }
-
 
 .task-item {
   padding: 20px;
@@ -48,4 +50,22 @@ body {
   width: 180px;
 
   text-align: center;
+  cursor: pointer;
+}
+
+.task-item a {
+  display: flex;
+  justify-content: center;
+}
+
+.div-back {
+  padding-top: 15px;
+}
+
+.link-back {
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 15px;
+  font-weight: 500;
+  cursor: pointer;
 }
